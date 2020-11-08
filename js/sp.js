@@ -8,11 +8,10 @@ var home = location.href,
       $('#video-btn').addClass('video-play').removeClass('video-pause')
       s.pause()
     }, liveplay: function () {
-      if (s.oncanplay != undefined {
+      if (
         if ($('.videolive').length > 0) {
           Siren.splay()
         }
-      }
     }, livepause: function () {
       if (s.oncanplay != undefined {
         Siren.spause()
