@@ -12,7 +12,9 @@ var home = location.href,
           Siren.splay()
     }, livepause: function () {
       if (
+	  if ($('.videolive').length > 0) {
         Siren.spause()
+		}
         $('.video-stu').css({
           'bottom': '0px'
         }).html('已暂停 ...')
