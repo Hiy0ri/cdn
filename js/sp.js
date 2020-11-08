@@ -1,6 +1,6 @@
 
 var home = location.href,
-  s = $('#bgvideo')[0],
+  s = $('#bgvideo'),
   Siren = {
     BSZ: function() {
       $.getScript('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
@@ -8,13 +8,13 @@ var home = location.href,
       $('#video-btn').addClass('video-play').removeClass('video-pause')
       s.pause()
     }, liveplay: function () {
-      if (s.oncanplay != undefined && $('.haslive').length > 0) {
+      if (s.oncanplay != undefined {
         if ($('.videolive').length > 0) {
           Siren.splay()
         }
       }
     }, livepause: function () {
-      if (s.oncanplay != undefined && $('.haslive').length > 0) {
+      if (s.oncanplay != undefined {
         Siren.spause()
         $('.video-stu').css({
           'bottom': '0px'
