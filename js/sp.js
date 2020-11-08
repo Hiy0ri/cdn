@@ -13,12 +13,11 @@ var home = location.href,
           Siren.splay()
         }
     }, livepause: function () {
-      if (s.oncanplay != undefined {
+      if (
         Siren.spause()
         $('.video-stu').css({
           'bottom': '0px'
         }).html('已暂停 ...')
-      }
     }, addsource: function () {
       $('.video-stu').html('正在载入视频 ...').css({
         'bottom': '0px'
