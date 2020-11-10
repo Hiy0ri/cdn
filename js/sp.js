@@ -1,4 +1,4 @@
-var s = document.getElementById("bgvideo")[0];
+var s = document.getElementById("bgvideo");
 var b = document.getElementById("video-btn");
 var s = document.getElementById("#video-stu");
 this.controls = true; //控制条
