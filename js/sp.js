@@ -1,6 +1,6 @@
-var s = $('#bgvideo')[0];
-var b = $('#video-btn');
-var s = $('#video-stu');
+var s = document.getElementById("bgvideo")[0];
+var b = document.getElementById("video-btn");
+var s = document.getElementById("#video-stu");
 this.controls = true; //控制条
 var current = true  
 b.addEventListener("click",function() {
